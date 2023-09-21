@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,200;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  background-color: #181832;
+}
+.navbar-container {
+  background-color: #0a0a22;
+  height: 78px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 40px;
+}
+.links a {
+  font-family: "Poppins";
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1.5rem;
+}
+.hero-section-container {
+  background-color: #101024;
+  display: flex;
+  justify-content: center;
+}
+.hero-section {
+  padding: 3rem 0rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.helo {
+  color: #e1b011;
+  font-family: "Poppins";
+}
+.name {
+  font-size: 34px;
+  color: #fff;
+  font-weight: bold;
+}
+.second-name {
+  margin-left: 0.5rem;
+  font-size: 34px;
+  color: #e1b011;
+  font-weight: bold;
+}
+.txt {
+  width: 400px;
+}
+.txt p {
+  color: #fff;
+  font-size: 13.8px;
+  word-spacing: 2px;
+  margin-top: 0.4rem;
+}
+.hire-me,
+.download-cv {
+  background-color: #e1b011;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Poppins";
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 0.4rem 1.4rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.hero-img img {
+  height: 280px;
+}
+.about-me-container {
+  background-color: #121227;
+  display: flex;
+  justify-content: center;
+}
+.about-me {
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 0rem;
+}
+.second-hero-img img {
+  height: 350px;
+}
+.first-about-me-txt {
+  color: #e1b011;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+}
+.second-about-me-txt {
+  color: #e1b011;
+  font-size: 14px;
+}
+
+.secondtxt {
+  width: 400px;
+  margin-top: 1rem;
+}
+.secondtxt p {
+  color: #fff;
+  font-size: 13.8px;
+  word-spacing: 2px;
+  margin-top: 0.4rem;
+}
+
+.secondoncemoretxt {
+  width: 400px;
+  margin-top: 1rem;
+}
+.secondoncemoretxt p {
+  color: #fff;
+  font-size: 13.8px;
+  word-spacing: 2px;
+  margin-top: 0.4rem;
+}
+.my-skills-container {
+  background-color: #07071f;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 0rem;
+}
+.my-skills {
+  width: 60%;
+}
+.m-skil {
+  text-align: center;
+  margin-top: 0.8rem;
+  color: #e1b011;
+  font-size: 32px;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+}
+.mainskillfirstdiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.mainskillseconddiv {
+  display: flex;
+  margin-top: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-inner-div {
+  height: 8px;
+  background-color: black;
+  width: 380px;
+  border-radius: 4px;
+}
+.first-oercent-div {
+  background-color: #e1b011;
+  border-radius: 4px;
+  width: 80%;
+  height: 8px;
+}
+.first-second-inner-div {
+  height: 8px;
+  background-color: black;
+  width: 380px;
+  border-radius: 4px;
+}
+.first-second-oercent-div {
+  background-color: #e1b011;
+  border-radius: 4px;
+  width: 70%;
+  height: 8px;
+}
+.eeee-second-oercent-div {
+  background-color: #e1b011;
+  border-radius: 4px;
+  width: 90%;
+  height: 8px;
+}
+.dddd-oercent-div {
+  background-color: #e1b011;
+  border-radius: 4px;
+  width: 50%;
+  height: 8px;
+}
+.same-class {
+  color: #fff;
+  font-size: 14px;
+}
+
+.box-1 {
+  height: 220px;
+  width: 250px;
+  background-color: #0a0a22;
+  border-radius: 4px;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.box-2 {
+  height: 220px;
+  width: 250px;
+  border-radius: 4px;
+  background-color: #0a0a22;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.box-3 {
+  height: 220px;
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-color: #0a0a22;
+}
+
+.experties-area-container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0rem;
+  background-color: #0a0a22;
+}
+.experties-area {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seconDDDtxt {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.bx-head {
+  font-size: 20px;
+  margin-top: 3rem;
+  text-align: center;
+  color: #e1b011;
+  font-weight: bold;
+}
+
+.recent-works-containers {
+  background-color: #07071f;
+  display: flex;
+  justify-content: center;
+}
+.recent-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.recent-txt-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.recent-txt-info .rwork {
+  font-size: 32px;
+  color: #e1b011;
+}
+.recent-workpara {
+  width: 500px;
+  text-align: center;
+}
+.recent-works p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+.ain-images-div {
+    display: flex;
+    
+  margin: 2rem 0rem .4rem 0rem;
+}
+.mainsecondimagediv{
+    display: flex;
+    flex-direction: column;
+}
+.mainthirdimagediv{
+    display: flex;
+    flex-direction: column;
+}
+.mainsecondimagediv img{
+    height: 140px;
+}
+.mainthirdimagediv img{
+    height: 140px;
+}
+.mainfirstimagediv img{
+    height: 285px;
+}
+.btnDiv button{
+    background-color: #e1b011;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Poppins";
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0.4rem 1.4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.btnDiv {
+    margin-bottom: 2rem;
+}
+
+.blog-area-container{
+    display: flex;
+    justify-content: center;
+    background-color: #0a0a22;
+}
+.lblog{
+  text-align: center;
+  color: #e1b011;
+  font-size: 32px;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.blog-area{
+    width: 80%;
+}
+.bxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.bxes-2{
+    margin-left: 2rem;
+} 
+.bxes-3{
+    margin-left: 2rem;
+} 
+.bxes-1 img{
+   height: 150px;
+}
+.bxes-2 img{
+    height: 150px;
+} 
+.bxes-3 img{
+    height: 150px;
+} 
+
+.bxes-2 p{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: .4rem;
+} 
+.bxes-3 p{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: .4rem;
+} 
+.bxes-1 p{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: .4rem;
+}
+
+.bxes-2 a{
+    color: #e1b011;
+    font-size: 12px;
+    text-decoration: none;
+} 
+.bxes-3 a{
+    color: #e1b011;
+    font-size: 12px;
+    text-decoration: none;
+} 
+.bxes-1 a{
+    color: #e1b011;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forms-container{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.formsbox{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formsecondbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one , .two , .three , .fourh , .five{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.six{
+    color: #fff;
+    margin-top: 12rem;
+}
+.twoinner{
+    color: #e1b011;
+}
+.formsecondbox input{
+    width: 450px;
+    height: 45px;
+    font-family: "Poppins";
+    margin-top: .3rem;
+    padding-left: 1rem;
+    background: none;
+    outline: none;
+    border: .1px solid #fff;
+    color: #e1b011;
+}
+.formsecondbox{
+    background-color: #0a0a22;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 2rem 1rem;
+    border-radius: 4px;
+}
+.formsecondbox textarea{
+    width: 450px;
+    background: none;
+    font-family: "Poppins";
+    padding-left: 1rem;
+    margin-top: .3rem;
+    outline: none;
+    border: .1px solid #fff;
+    padding-top: .4rem;
+    color: #e1b011;
+}
+.formsecondbox textarea::placeholder{
+    color: #e1b011;
+}
+.formsecondbox input::placeholder{
+    color: #e1b011;
+}
+.frombtndiv button{
+    background-color: #e1b011;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Poppins";
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 0.4rem 1.4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
